@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(to top right, #FFDAC8, #FF8F59, #D94600);
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+}
+
+#content {
+  height: 400px;
+  width: 400px;
+  align-self: center;
+  justify-self: center;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plus,
+.minus {
+  border-radius: 5px;
+  border: 0px;
+  font-size: 18px;
+  background-color: #CCCCCC;
+  width: 30px;
+}
+
+.reset {
+  border-radius: 5px;
+  background-color: #CCCCCC;
+  border: 0px;
+  margin: 0px 5px;
+  font-size: 18px;
+}
+
+#counterNum {
+  display: flex;
+}
+
+#number {
+  background-color: #FFF;
+  height: 20px;
+  width: 40px;
+  margin: 0px 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.firNum, .secNum {
+  border-radius: 5px;
+  border: 0px;
+  font-size: 18px;
+  width: 130px
+}
+
+.cal {
+  border-radius: 5px;
+  border: 0px;
+  background-color: #CCCCCC;
+  font-size: 18px;
+}
